@@ -1,9 +1,9 @@
 function ltsv(line)
     local data = {}
-    local i, token
-    for token in string.gmatch(line, "[^\t]+") do
-        i = string.find(token, ":")
-        data[string.sub(token, 1, i - 1)] = string.sub(token, i + 1)
+    local token
+    for token in line:gmatch("[^\t]+") do
+        local i = token:find(":")
+        data[token:sub(1, i - 1)] = token:sub(i + 1)
     end
     return data
 end
