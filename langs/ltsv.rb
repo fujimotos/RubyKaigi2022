@@ -1,16 +1,15 @@
 def ltsv(line)
-    ret = {}
-    line.chomp!
-    line.split("\t").each do |token|
-        k, v = token.split(":", 2)
-        ret[k] = v
-    end
-    ret
+  ret = {}
+  line.split("\t").each { |token|
+    k, v = token.split(":", 2)
+    ret[k] = v
+  }
+  ret
 end
 
 record = nil
-STDIN.each_line do |line|
-    record = ltsv(line)
+$stdin.each_line(chomp: true) do |line|
+  record = ltsv(line)
 end
 
 puts(record)
