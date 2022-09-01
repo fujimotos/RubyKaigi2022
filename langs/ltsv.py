@@ -8,7 +8,10 @@ def ltsv(line):
         ret[k] = v
     return ret
 
+
+
 for line in sys.stdin:
     record = ltsv(line)
+
 
 print(record)

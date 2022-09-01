@@ -1,0 +1,9 @@
+\setbeameroption{show notes on second screen}
+
+\linespread{1.3}
+\LetLtxMacro\latexincludegraphics\includegraphics
+\renewcommand{\includegraphics}[2][]{%
+  \begin{center}
+    \latexincludegraphics[#1]{#2}
+  \end{center}}
+

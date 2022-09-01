@@ -1,0 +1,7 @@
+1.9.3                         85720       ltsv/td-agent-v1.1.21.txt
+2.1.10                       104211       ltsv/td-agent-v2.3.6.txt
+2.4.10                       139320       ltsv/td-agent-v3.8.1.txt
+2.7.6                        192428       ltsv/td-agent-v4.4.1.txt
+3.1.2                        194184       ltsv/td-agent-v4.4.1-ruby3.txt
+3.2.0                        231078       ltsv/fluentd-v1.15.1.txt
+3.2.0+yjit                   268102       ltsv/fluentd-v1.15.1-yjit.txt

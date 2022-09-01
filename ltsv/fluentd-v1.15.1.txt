@@ -1,0 +1,19 @@
+Ruby
+====
+
+ruby 3.2.0dev (2022-08-07T09:25:10Z master e5e6b87e26) [x86_64-linux]
+
+Performance
+===========
+
+2022-09-02 02:03:36 +0000 [info]: #0 plugin:out_flowcounter_simple      count:209649    indicator:num   unit:second
+2022-09-02 02:03:37 +0000 [info]: #0 plugin:out_flowcounter_simple      count:237735    indicator:num   unit:second
+2022-09-02 02:03:38 +0000 [info]: #0 plugin:out_flowcounter_simple      count:238738    indicator:num   unit:second
+2022-09-02 02:03:39 +0000 [info]: #0 plugin:out_flowcounter_simple      count:238739    indicator:num   unit:second
+2022-09-02 02:03:40 +0000 [info]: #0 plugin:out_flowcounter_simple      count:212657    indicator:num   unit:second
+2022-09-02 02:03:41 +0000 [info]: #0 plugin:out_flowcounter_simple      count:236732    indicator:num   unit:second
+2022-09-02 02:03:42 +0000 [info]: #0 plugin:out_flowcounter_simple      count:238739    indicator:num   unit:second
+2022-09-02 02:03:43 +0000 [info]: #0 plugin:out_flowcounter_simple      count:238738    indicator:num   unit:second
+2022-09-02 02:03:44 +0000 [info]: #0 plugin:out_flowcounter_simple      count:215667    indicator:num   unit:second
+2022-09-02 02:03:45 +0000 [info]: #0 plugin:out_flowcounter_simple      count:235729    indicator:num   unit:second
+2022-09-02 02:03:46 +0000 [info]: #0 plugin:out_flowcounter_simple      count:238738    indicator:num   unit:second

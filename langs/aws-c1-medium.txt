@@ -1,0 +1,68 @@
+CPU
+===
+
+Intel(R) Xeon(R) CPU E5-2651 v2 @ 1.80GHz
+
+Result
+======
+
+========= ====
+Ruby      102s
+Ruby+mjit 103s
+Perl       66s
+Python     33s
+Luajit     31s
+Lua        67s
+Awk        77s
+========= ====
+
+Raw logs
+========
+
+time -p ruby ltsv.rb < data.ltsv
+{"time"=>"2022-08-07 07:38:31,842", "module"=>"main.py", "level"=>"DEBUG", "message"=>"No kernel command line url found."}
+real 102.43
+user 101.37
+sys 1.03
+time -p ruby --jit ltsv.rb < data.ltsv
+{"time"=>"2022-08-07 07:38:31,842", "module"=>"main.py", "level"=>"DEBUG", "message"=>"No kernel command line url found."}
+real 103.04
+user 102.10
+sys 0.90
+time -p perl ltsv.pl < data.ltsv
+message No kernel command line url found.
+time 2022-08-07 07:38:31,842
+level DEBUG
+module main.py
+real 66.53
+user 66.09
+sys 0.42
+time -p python3 ltsv.py < data.ltsv
+{'time': '2022-08-07 07:38:31,842', 'module': 'main.py', 'level': 'DEBUG', 'message': 'No kernel command line url found.'}
+real 33.39
+user 32.87
+sys 0.46
+time -p lua ltsv.lua < data.ltsv
+time    2022-08-07 07:38:31,842
+level   DEBUG
+message No kernel command line url found.
+module  main.py
+real 67.03
+user 66.41
+sys 0.58
+time -p luajit ltsv.lua < data.ltsv
+level   DEBUG
+time    2022-08-07 07:38:31,842
+module  main.py
+message No kernel command line url found.
+real 31.07
+user 30.57
+sys 0.48
+time -p awk -f ltsv.awk < data.ltsv
+level DEBUG
+module main.py
+time 2022-08-07 07:38:31,842
+real 77.45
+user 76.83
+sys 0.58
+

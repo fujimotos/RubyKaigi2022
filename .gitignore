@@ -1,3 +1,7 @@
 langs/data
+langs/data-nginx
 langs/data.ltsv
+ractor/data.nginx
+ractor/data
 slide.pdf
+__pycache__

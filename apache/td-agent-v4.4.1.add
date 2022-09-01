@@ -1,0 +1,18 @@
+Ruby
+====
+
+ruby 3.2.0+yjit+v0.12.40 (2022-08-07T09:25:10Z master e5e6b87e26) [x86_64-linux]
+
+Performance
+===========
+
+2022-09-05 02:30:23 +0000 [info]: plugin:out_flowcounter_simple count:154525    indicator:num   unit:second
+2022-09-05 02:30:24 +0000 [info]: plugin:out_flowcounter_simple count:157556    indicator:num   unit:second
+2022-09-05 02:30:25 +0000 [info]: plugin:out_flowcounter_simple count:143416    indicator:num   unit:second
+2022-09-05 02:30:26 +0000 [info]: plugin:out_flowcounter_simple count:160586    indicator:num   unit:second
+2022-09-05 02:30:27 +0000 [info]: plugin:out_flowcounter_simple count:142406    indicator:num   unit:second
+2022-09-05 02:30:28 +0000 [info]: plugin:out_flowcounter_simple count:157556    indicator:num   unit:second
+2022-09-05 02:30:29 +0000 [info]: plugin:out_flowcounter_simple count:157556    indicator:num   unit:second
+2022-09-05 02:30:30 +0000 [info]: plugin:out_flowcounter_simple count:139376    indicator:num   unit:second
+2022-09-05 02:30:31 +0000 [info]: plugin:out_flowcounter_simple count:157556    indicator:num   unit:second
+2022-09-05 02:30:32 +0000 [info]: plugin:out_flowcounter_simple count:158565    indicator:num   unit:second

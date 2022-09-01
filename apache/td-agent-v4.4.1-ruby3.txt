@@ -1,0 +1,29 @@
+Ruby
+====
+
+ruby 3.1.2dev (2022-04-12 revision 4491bb740a) [x86_64-linux]
+
+Performance
+===========
+
+2022-09-04 09:33:31 +0000 [info]: #0 plugin:out_flowcounter_simple      count:139377    indicator:num   unit:second
+2022-09-04 09:33:32 +0000 [info]: #0 plugin:out_flowcounter_simple      count:156545    indicator:num   unit:second
+2022-09-04 09:33:33 +0000 [info]: #0 plugin:out_flowcounter_simple      count:156546    indicator:num   unit:second
+2022-09-04 09:33:34 +0000 [info]: #0 plugin:out_flowcounter_simple      count:143416    indicator:num   unit:second
+2022-09-04 09:33:35 +0000 [info]: #0 plugin:out_flowcounter_simple      count:156546    indicator:num   unit:second
+2022-09-04 09:33:36 +0000 [info]: #0 plugin:out_flowcounter_simple      count:139376    indicator:num   unit:second
+2022-09-04 09:33:37 +0000 [info]: #0 plugin:out_flowcounter_simple      count:156546    indicator:num   unit:second
+2022-09-04 09:33:38 +0000 [info]: #0 plugin:out_flowcounter_simple      count:156546    indicator:num   unit:second
+2022-09-04 09:33:39 +0000 [info]: #0 plugin:out_flowcounter_simple      count:142406    indicator:num   unit:second
+2022-09-04 09:33:40 +0000 [info]: #0 plugin:out_flowcounter_simple      count:156546    indicator:num   unit:second
+2022-09-04 09:33:41 +0000 [info]: #0 plugin:out_flowcounter_simple      count:139376    indicator:num   unit:second
+2022-09-04 09:33:42 +0000 [info]: #0 plugin:out_flowcounter_simple      count:155536    indicator:num   unit:second
+2022-09-04 09:33:43 +0000 [info]: #0 plugin:out_flowcounter_simple      count:157555    indicator:num   unit:second
+2022-09-04 09:33:44 +0000 [info]: #0 plugin:out_flowcounter_simple      count:142406    indicator:num   unit:second
+2022-09-04 09:33:45 +0000 [info]: #0 plugin:out_flowcounter_simple      count:156546    indicator:num   unit:second
+2022-09-04 09:33:46 +0000 [info]: #0 plugin:out_flowcounter_simple      count:140386    indicator:num   unit:second
+2022-09-04 09:33:47 +0000 [info]: #0 plugin:out_flowcounter_simple      count:155536    indicator:num   unit:second
+2022-09-04 09:33:48 +0000 [info]: #0 plugin:out_flowcounter_simple      count:142406    indicator:num   unit:second
+2022-09-04 09:33:49 +0000 [info]: #0 plugin:out_flowcounter_simple      count:157556    indicator:num   unit:second
+2022-09-04 09:33:50 +0000 [info]: #0 plugin:out_flowcounter_simple      count:139376    indicator:num   unit:second
+2022-09-04 09:33:51 +0000 [info]: #0 plugin:out_flowcounter_simple      count:155536    indicator:num   unit:second

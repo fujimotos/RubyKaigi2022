@@ -1,0 +1,22 @@
+set terminal png size 1200,600 font 'Liberation Sans,20'
+set output "ltsv.png"
+
+set style line 1 lt 1 lc rgb '#000'
+
+set border 3 front ls 1
+set tics nomirror out scale 0.75
+set grid xtics ytics
+
+set ytics 0,100000,2800000
+
+set boxwidth 0.5
+set style fill pattern 5
+set nokey
+
+set grid
+#set title "Ruby Performance Landscape: LTSV parsing\n(higher is better)" font "Liberation Sans,25"
+set yrange [0:280000]
+set ylabel "Lines per second"
+
+plot 'ltsv.txt' using 0:2:xtic(1) with boxes ls 1, \
+     '' using 0:($2+10000):($2) with labels notitle;

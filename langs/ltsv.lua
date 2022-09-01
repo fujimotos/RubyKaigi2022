@@ -8,6 +8,8 @@ function ltsv(line)
     return data
 end
 
+
+
 for line in io.lines() do
     record = ltsv(line)
 end
