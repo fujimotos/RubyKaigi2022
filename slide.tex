@@ -7,3 +7,14 @@
     \latexincludegraphics[#1]{#2}
   \end{center}}
 
+\setbeamertemplate{navigation symbols}{} 
+\setbeamertemplate{footline}[frame number]
+\setbeamertemplate{note page}{%
+	\pagecolor{yellow!5}
+	\vfill
+	\begin{minipage}[c][\textheight][t]{\textwidth}
+		{\usebeamerfont{frametitle}\usebeamercolor[fg]{frametitle}[\insertframenumber{}/\inserttotalframenumber] \insertframetitle \par}
+        \par
+		\insertnote
+	\end{minipage}
+}
