@@ -358,7 +358,7 @@ Ruby3はRuby2の3倍早くなる。何をやれば3倍早くなるって分か�
 # Language Landscape
 
 
-![Ruby / Ruby+YJIT / Python / Lua / LuaJIT / Perl](quiz.png){width=100%}
+![Ruby3.2 / Ruby3.2+YJIT / Python / Lua / LuaJIT / Perl](quiz.png){width=100%}
 
 ::: notes
 \scriptsize
@@ -371,7 +371,7 @@ Ruby3はRuby2の3倍早くなる。何をやれば3倍早くなるって分か�
 そのスループットを比較したものです。  
 
 \vspace{1.5em}
-RubyについてはYJITありなしで計測しました。Luaについても、  
+Ruby 3.2を利用して、YJITありなしで計測しました。Luaについても、  
 LuaJITという有名なJIT実装があるので、2パターンで計測しました。
 :::
 
@@ -425,23 +425,55 @@ RubyとPythonと同じような形で最後のレコードを出力してます�
 
 # Language Landscape (cont)
 
-![Ruby / Ruby+YJIT / Python / Perl / Lua / LuaJIT](quiz.png){width=100%}
+![Ruby3.2 / Ruby3.2+YJIT / Python / Perl / Lua / LuaJIT](quiz.png){width=100%}
 
 ::: notes
 \scriptsize
 
 これはちょっとクイズ形式で出させていただこうと思います。  
-選択肢は、Ruby、Ruby+YJIT、Python、Lua、LuaJIT、Perlという6種類です。  
-で、Luaだけは埋めてます。Luaだと40万行ぐらい処理できました。
+
+\scriptsize
+LuaとLuaJITだけは埋めてます。Luaだと40万行ぐらい処理できました。  
+LuaJITは原作者がMike Pallという方なんですが、
+やはりこれはものすごくて秒間100万行を処理できて一番速いという結果です。 
 
 \vspace{1.5em}
-後はなんでしょう？というのが今日の皆さん向けのクイズになってます。  
+残るは、Ruby3.2、Ruby3.2+YJIT、Python、Perlという4種類なんですが、
+どういう順番でしょう？というのが今日の皆さん向けのクイズになってます。  
 これをちょっと考えていただきたい。 
 
+:::
+
+# Language Landscape (cont)
+
+* *Clap your hands if you believe ...*
+
 \vspace{1.5em}
-まず一番右側、一番速かった言語からから聞いてきたいんですが、  
-どなたか、何だと思いますか？この言語は。  
-答えてみようという方は手をあげてみてください。
+1. **Perl**   < **Python**    < Lua  < **Ruby3.2** < **Ruby3.2+YJIT** < LuaJIT
+
+\vspace{1.5em}
+
+2. **Python** < **Ruby3.2**  < Lua  < **Ruby3.2+YJIT** < **Perl** < LuaJIT
+
+\vspace{1.5em}
+
+3. **Ruby3.2** < **Ruby3.2+YJIT** < Perl < **Lua**  < **Python** < LuaJIT
+
+::: notes
+\scriptsize
+
+で今回、なるべくインタラクティブにしようと、色々と考えたんですが、  
+声を出さなくても答えられるようにしよう、というアイデアで、こういう  
+三択を用意しました。
+
+\vspace{1.5em}
+まず最初が、Perlが一番遅くて、次がPython、でRuby3.2が速いという答えです。
+
+\vspace{1.5em}
+2番目がPythonが一番遅くて、次がRuby、でPerlが最も速いという答えです。
+
+\vspace{1.5em}
+3番目が、rubyが一番遅くて、次がPerl、でPythonが一番速いという答えです。
 
 :::
 
