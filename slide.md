@@ -457,7 +457,7 @@ LuaJITは原作者がMike Pallという方なんですが、
 
 \vspace{1.5em}
 
-3. **Ruby3.2** < **Ruby3.2+YJIT** < Perl < **Lua**  < **Python** < LuaJIT
+3. **Ruby3.2** < **Ruby3.2+YJIT** <  Lua < **Perl** < **Python** < LuaJIT
 
 ::: notes
 \scriptsize
